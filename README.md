@@ -87,12 +87,12 @@ Ejecutado con Python 3.13.16.
 ## Estructura del repositorio
 
 ```
-TP-regresion-AA1.ipynb     notebook con el análisis completo y los modelos
-data/house-prices-tp.csv   dataset entregado por la cátedra
-assets/                    gráficos exportados del notebook
-requirements.txt           librerías y versiones
-README.md                  este archivo
-README.en.md               versión en inglés
+house_price_regression.ipynb   notebook con el análisis completo y los modelos
+data/house-prices-tp.csv       dataset entregado por la cátedra
+assets/                        gráficos exportados del notebook
+requirements.txt               librerías y versiones
+README.md                      este archivo
+README.en.md                   versión en inglés
 ```
 
 ## Cómo ejecutarlo
@@ -100,12 +100,12 @@ README.en.md               versión en inglés
 El notebook lee el dataset con la ruta relativa `./data/house-prices-tp.csv`, así que hay que abrirlo desde la raíz del repositorio.
 
 ```bash
-git clone https://github.com/MaxiFrank7/Fork_TP_AA1.git
-cd Fork_TP_AA1
+git clone https://github.com/MaxiFrank7/house-price-prediction.git
+cd house-price-prediction
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook TP-regresion-AA1.ipynb
+jupyter notebook house_price_regression.ipynb
 ```
 
 En Windows, el tercer comando de activación es `.venv\Scripts\activate`.
