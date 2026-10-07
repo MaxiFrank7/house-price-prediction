@@ -1,0 +1,9 @@
+# Versiones de la ejecución completa del notebook (Python 3.13.16)
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.18.1
+scikit-learn==1.9.1
+catboost==1.2.10
+notebook==7.6.3
